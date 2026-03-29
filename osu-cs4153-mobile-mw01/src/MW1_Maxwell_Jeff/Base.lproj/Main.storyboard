@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="e23-Qv-MjW">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MW1_Maxwell_Jeff" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tuq-1A-m3U">
+                                <rect key="frame" x="94" y="335" width="225" height="225"/>
+                                <gestureRecognizers/>
+                                <state key="normal" image="start"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Agf-xK-2Rc" appends="YES" id="e21-Zr-gpb"/>
+                                    <outletCollection property="gestureRecognizers" destination="nai-Yp-68B" appends="YES" id="pHk-NV-uXn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brQ-8s-A9O">
+                                <rect key="frame" x="107" y="96" width="200" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Zop-DC-FxQ"/>
+                                    <constraint firstAttribute="height" constant="150" id="cMi-fV-sMB"/>
+                                </constraints>
+                                <state key="normal" image="walking"/>
+                                <connections>
+                                    <segue destination="9Os-vA-nJt" kind="show" id="TcI-dx-8wm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lap Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kiS-bo-1wV">
+                                <rect key="frame" x="20" y="258" width="95" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZFX-WO-NKX">
+                                <rect key="frame" x="316" y="258" width="78" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfX-hD-Vna">
+                                <rect key="frame" x="28" y="289" width="95" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00:00.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePl-oO-UdC">
+                                <rect key="frame" x="323" y="288" width="71" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lap Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9l8-uP-YQp">
+                                <rect key="frame" x="58" y="598" width="298" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqa-B4-ifA">
+                                <rect key="frame" x="58" y="94" width="298" height="154"/>
+                                <state key="normal" image="new-lap"/>
+                                <connections>
+                                    <action selector="newLapButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RWc-p9-jkH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0:00:00.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXN-z1-E3J">
+                                <rect key="frame" x="48" y="643" width="323" height="47"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Images courtesy of freepik.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="keQ-wF-Z8j">
+                                <rect key="frame" x="80" y="793" width="252" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Tuq-1A-m3U" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="04J-ov-Ikw"/>
+                            <constraint firstItem="brQ-8s-A9O" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="27b-W1-LpL"/>
+                            <constraint firstItem="rXN-z1-E3J" firstAttribute="centerX" secondItem="brQ-8s-A9O" secondAttribute="centerX" id="3bQ-Ud-BQi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="keQ-wF-Z8j" secondAttribute="bottom" id="65S-YU-Sl1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZFX-WO-NKX" secondAttribute="trailing" constant="20" id="8fQ-Yj-RIn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ePl-oO-UdC" secondAttribute="trailing" constant="20" id="J00-vg-dbO"/>
+                            <constraint firstItem="keQ-wF-Z8j" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Jjz-qA-Hbn"/>
+                            <constraint firstItem="brQ-8s-A9O" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="O97-ve-X0V"/>
+                            <constraint firstItem="lqa-B4-ifA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="6" id="Qof-vS-9Jp"/>
+                            <constraint firstItem="9l8-uP-YQp" firstAttribute="top" secondItem="Tuq-1A-m3U" secondAttribute="bottom" constant="38" id="VLL-ME-svz"/>
+                            <constraint firstItem="ePl-oO-UdC" firstAttribute="top" secondItem="ZFX-WO-NKX" secondAttribute="bottom" constant="10" id="WQO-QW-pU4"/>
+                            <constraint firstItem="kiS-bo-1wV" firstAttribute="top" secondItem="lqa-B4-ifA" secondAttribute="bottom" constant="10" id="e2p-y4-34e"/>
+                            <constraint firstItem="kiS-bo-1wV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kd8-Cs-UuH"/>
+                            <constraint firstItem="lfX-hD-Vna" firstAttribute="top" secondItem="kiS-bo-1wV" secondAttribute="bottom" constant="10" id="lIG-Kh-KLw"/>
+                            <constraint firstItem="brQ-8s-A9O" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nHq-0T-39Y"/>
+                            <constraint firstItem="ZFX-WO-NKX" firstAttribute="top" secondItem="lqa-B4-ifA" secondAttribute="bottom" constant="10" id="qbU-e0-O94"/>
+                            <constraint firstItem="rXN-z1-E3J" firstAttribute="top" secondItem="9l8-uP-YQp" secondAttribute="bottom" constant="10" id="r0J-5M-uLW"/>
+                            <constraint firstItem="lqa-B4-ifA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="rYm-Ut-NtP"/>
+                            <constraint firstItem="lfX-hD-Vna" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sT0-v2-yE8"/>
+                            <constraint firstItem="Tuq-1A-m3U" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="uf8-V0-wcI"/>
+                            <constraint firstItem="rXN-z1-E3J" firstAttribute="centerX" secondItem="9l8-uP-YQp" secondAttribute="centerX" constant="2.5" id="yTI-5I-mEy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WQf-N6-que"/>
+                    <connections>
+                        <outlet property="lapCounterLabel" destination="lfX-hD-Vna" id="XDn-8X-W5k"/>
+                        <outlet property="lapTimeLabel" destination="rXN-z1-E3J" id="VBM-7V-dKN"/>
+                        <outlet property="logoButton" destination="brQ-8s-A9O" id="XhB-Pr-kk3"/>
+                        <outlet property="newLapButton" destination="lqa-B4-ifA" id="UNE-Uw-6Ct"/>
+                        <outlet property="stopWatchButton" destination="Tuq-1A-m3U" id="nIM-iK-ym6"/>
+                        <outlet property="stopWatchDoubleTapRecognizer" destination="nai-Yp-68B" id="uyN-6R-6Vw"/>
+                        <outlet property="stopWatchTapRecognizer" destination="Agf-xK-2Rc" id="sgZ-iS-fVY"/>
+                        <outlet property="totalTimeLabel" destination="ePl-oO-UdC" id="OrV-iG-xm5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Agf-xK-2Rc" userLabel="Stop Watch Single Tap">
+                    <connections>
+                        <action selector="stopWatchTapHandler:" destination="BYZ-38-t0r" id="oRe-7b-6Zl"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="nai-Yp-68B" userLabel="Stop Watch Double Tap">
+                    <connections>
+                        <action selector="stopWatchDoubleTapHandler:" destination="BYZ-38-t0r" id="1dV-Xl-9cB"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1188.4057971014495" y="790.17857142857144"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="zrA-g2-nd6">
+            <objects>
+                <tableViewController id="9Os-vA-nJt" customClass="TableViewController" customModule="MW1_Maxwell_Jeff" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7Zc-i2-ojq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Table Cell" id="WhU-nc-VVh">
+                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WhU-nc-VVh" id="fgv-Yh-hAG">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="9Os-vA-nJt" id="a4E-ZC-aMI"/>
+                            <outlet property="delegate" destination="9Os-vA-nJt" id="PVg-Ay-ZaV"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="VdP-sj-L7V"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LSE-ij-TUq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2219" y="791"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="q52-HK-r3m">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="roV-Tb-zHb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="e23-Qv-MjW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rh5-cu-uE2">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NFo-Gk-P61">
+                        <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="HWT-U9-IW5"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="791.15442278860576"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="new-lap" width="298" height="154"/>
+        <image name="start" width="225" height="225"/>
+        <image name="walking" width="300" height="243"/>
+    </resources>
+</document>

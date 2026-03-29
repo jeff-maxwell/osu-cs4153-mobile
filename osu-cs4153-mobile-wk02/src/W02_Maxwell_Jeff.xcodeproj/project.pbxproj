@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E2998B1213777140003064C /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2998B0213777140003064C /* Calculator.swift */; };
+		4EB28A1A21363B39002A487B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB28A1921363B39002A487B /* AppDelegate.swift */; };
+		4EB28A1C21363B39002A487B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB28A1B21363B39002A487B /* ViewController.swift */; };
+		4EB28A1F21363B39002A487B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB28A1D21363B39002A487B /* Main.storyboard */; };
+		4EB28A2121363B3A002A487B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB28A2021363B3A002A487B /* Assets.xcassets */; };
+		4EB28A2421363B3A002A487B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB28A2221363B3A002A487B /* LaunchScreen.storyboard */; };
+		4EB28A2F21363B3A002A487B /* W02_Maxwell_JeffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB28A2E21363B3A002A487B /* W02_Maxwell_JeffTests.swift */; };
+		4EB28A3A21363B3A002A487B /* W02_Maxwell_JeffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB28A3921363B3A002A487B /* W02_Maxwell_JeffUITests.swift */; };
+		4EB28A4821363FD8002A487B /* osu-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB28A4721363FD8002A487B /* osu-logo.png */; };
+		4EB28A4A2136434A002A487B /* 6-6-domino.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB28A492136434A002A487B /* 6-6-domino.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EB28A2B21363B3A002A487B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB28A0E21363B39002A487B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB28A1521363B39002A487B;
+			remoteInfo = W02_Maxwell_Jeff;
+		};
+		4EB28A3621363B3A002A487B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB28A0E21363B39002A487B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB28A1521363B39002A487B;
+			remoteInfo = W02_Maxwell_Jeff;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E2998B0213777140003064C /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		4EB28A1621363B39002A487B /* W02_Maxwell_Jeff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W02_Maxwell_Jeff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB28A1921363B39002A487B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EB28A1B21363B39002A487B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EB28A1E21363B39002A487B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EB28A2021363B3A002A487B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EB28A2321363B3A002A487B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EB28A2521363B3A002A487B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB28A2A21363B3A002A487B /* W02_Maxwell_JeffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = W02_Maxwell_JeffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB28A2E21363B3A002A487B /* W02_Maxwell_JeffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W02_Maxwell_JeffTests.swift; sourceTree = "<group>"; };
+		4EB28A3021363B3A002A487B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB28A3521363B3A002A487B /* W02_Maxwell_JeffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = W02_Maxwell_JeffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB28A3921363B3A002A487B /* W02_Maxwell_JeffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W02_Maxwell_JeffUITests.swift; sourceTree = "<group>"; };
+		4EB28A3B21363B3A002A487B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB28A4721363FD8002A487B /* osu-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osu-logo.png"; sourceTree = "<group>"; };
+		4EB28A492136434A002A487B /* 6-6-domino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6-6-domino.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EB28A1321363B39002A487B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB28A2721363B3A002A487B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB28A3221363B3A002A487B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EB28A0D21363B39002A487B = {
+			isa = PBXGroup;
+			children = (
+				4EB28A1821363B39002A487B /* W02_Maxwell_Jeff */,
+				4EB28A2D21363B3A002A487B /* W02_Maxwell_JeffTests */,
+				4EB28A3821363B3A002A487B /* W02_Maxwell_JeffUITests */,
+				4EB28A1721363B39002A487B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EB28A1721363B39002A487B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EB28A1621363B39002A487B /* W02_Maxwell_Jeff.app */,
+				4EB28A2A21363B3A002A487B /* W02_Maxwell_JeffTests.xctest */,
+				4EB28A3521363B3A002A487B /* W02_Maxwell_JeffUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EB28A1821363B39002A487B /* W02_Maxwell_Jeff */ = {
+			isa = PBXGroup;
+			children = (
+				4EB28A4721363FD8002A487B /* osu-logo.png */,
+				4EB28A492136434A002A487B /* 6-6-domino.png */,
+				4EB28A1921363B39002A487B /* AppDelegate.swift */,
+				4EB28A1B21363B39002A487B /* ViewController.swift */,
+				4EB28A1D21363B39002A487B /* Main.storyboard */,
+				4EB28A2021363B3A002A487B /* Assets.xcassets */,
+				4EB28A2221363B3A002A487B /* LaunchScreen.storyboard */,
+				4EB28A2521363B3A002A487B /* Info.plist */,
+				4E2998B0213777140003064C /* Calculator.swift */,
+			);
+			path = W02_Maxwell_Jeff;
+			sourceTree = "<group>";
+		};
+		4EB28A2D21363B3A002A487B /* W02_Maxwell_JeffTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EB28A2E21363B3A002A487B /* W02_Maxwell_JeffTests.swift */,
+				4EB28A3021363B3A002A487B /* Info.plist */,
+			);
+			path = W02_Maxwell_JeffTests;
+			sourceTree = "<group>";
+		};
+		4EB28A3821363B3A002A487B /* W02_Maxwell_JeffUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EB28A3921363B3A002A487B /* W02_Maxwell_JeffUITests.swift */,
+				4EB28A3B21363B3A002A487B /* Info.plist */,
+			);
+			path = W02_Maxwell_JeffUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EB28A1521363B39002A487B /* W02_Maxwell_Jeff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB28A3E21363B3A002A487B /* Build configuration list for PBXNativeTarget "W02_Maxwell_Jeff" */;
+			buildPhases = (
+				4EB28A1221363B39002A487B /* Sources */,
+				4EB28A1321363B39002A487B /* Frameworks */,
+				4EB28A1421363B39002A487B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = W02_Maxwell_Jeff;
+			productName = W02_Maxwell_Jeff;
+			productReference = 4EB28A1621363B39002A487B /* W02_Maxwell_Jeff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EB28A2921363B3A002A487B /* W02_Maxwell_JeffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB28A4121363B3A002A487B /* Build configuration list for PBXNativeTarget "W02_Maxwell_JeffTests" */;
+			buildPhases = (
+				4EB28A2621363B3A002A487B /* Sources */,
+				4EB28A2721363B3A002A487B /* Frameworks */,
+				4EB28A2821363B3A002A487B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EB28A2C21363B3A002A487B /* PBXTargetDependency */,
+			);
+			name = W02_Maxwell_JeffTests;
+			productName = W02_Maxwell_JeffTests;
+			productReference = 4EB28A2A21363B3A002A487B /* W02_Maxwell_JeffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EB28A3421363B3A002A487B /* W02_Maxwell_JeffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB28A4421363B3A002A487B /* Build configuration list for PBXNativeTarget "W02_Maxwell_JeffUITests" */;
+			buildPhases = (
+				4EB28A3121363B3A002A487B /* Sources */,
+				4EB28A3221363B3A002A487B /* Frameworks */,
+				4EB28A3321363B3A002A487B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EB28A3721363B3A002A487B /* PBXTargetDependency */,
+			);
+			name = W02_Maxwell_JeffUITests;
+			productName = W02_Maxwell_JeffUITests;
+			productReference = 4EB28A3521363B3A002A487B /* W02_Maxwell_JeffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EB28A0E21363B39002A487B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Oklahoma State University - Mobile Development";
+				TargetAttributes = {
+					4EB28A1521363B39002A487B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					4EB28A2921363B3A002A487B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4EB28A1521363B39002A487B;
+					};
+					4EB28A3421363B3A002A487B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 4EB28A1521363B39002A487B;
+					};
+				};
+			};
+			buildConfigurationList = 4EB28A1121363B39002A487B /* Build configuration list for PBXProject "W02_Maxwell_Jeff" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EB28A0D21363B39002A487B;
+			productRefGroup = 4EB28A1721363B39002A487B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EB28A1521363B39002A487B /* W02_Maxwell_Jeff */,
+				4EB28A2921363B3A002A487B /* W02_Maxwell_JeffTests */,
+				4EB28A3421363B3A002A487B /* W02_Maxwell_JeffUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EB28A1421363B39002A487B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB28A4821363FD8002A487B /* osu-logo.png in Resources */,
+				4EB28A2421363B3A002A487B /* LaunchScreen.storyboard in Resources */,
+				4EB28A4A2136434A002A487B /* 6-6-domino.png in Resources */,
+				4EB28A2121363B3A002A487B /* Assets.xcassets in Resources */,
+				4EB28A1F21363B39002A487B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB28A2821363B3A002A487B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB28A3321363B3A002A487B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EB28A1221363B39002A487B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB28A1C21363B39002A487B /* ViewController.swift in Sources */,
+				4E2998B1213777140003064C /* Calculator.swift in Sources */,
+				4EB28A1A21363B39002A487B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB28A2621363B3A002A487B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB28A2F21363B3A002A487B /* W02_Maxwell_JeffTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB28A3121363B3A002A487B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB28A3A21363B3A002A487B /* W02_Maxwell_JeffUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EB28A2C21363B3A002A487B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EB28A1521363B39002A487B /* W02_Maxwell_Jeff */;
+			targetProxy = 4EB28A2B21363B3A002A487B /* PBXContainerItemProxy */;
+		};
+		4EB28A3721363B3A002A487B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EB28A1521363B39002A487B /* W02_Maxwell_Jeff */;
+			targetProxy = 4EB28A3621363B3A002A487B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EB28A1D21363B39002A487B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EB28A1E21363B39002A487B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EB28A2221363B3A002A487B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EB28A2321363B3A002A487B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EB28A3C21363B3A002A487B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EB28A3D21363B3A002A487B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EB28A3F21363B3A002A487B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N27GZ96432;
+				INFOPLIST_FILE = W02_Maxwell_Jeff/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.okstate.cs.jefmaxw.W02-Maxwell-Jeff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EB28A4021363B3A002A487B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N27GZ96432;
+				INFOPLIST_FILE = W02_Maxwell_Jeff/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.okstate.cs.jefmaxw.W02-Maxwell-Jeff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EB28A4221363B3A002A487B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N27GZ96432;
+				INFOPLIST_FILE = W02_Maxwell_JeffTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.okstate.cs.jefmaxw.W02-Maxwell-JeffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W02_Maxwell_Jeff.app/W02_Maxwell_Jeff";
+			};
+			name = Debug;
+		};
+		4EB28A4321363B3A002A487B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N27GZ96432;
+				INFOPLIST_FILE = W02_Maxwell_JeffTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.okstate.cs.jefmaxw.W02-Maxwell-JeffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W02_Maxwell_Jeff.app/W02_Maxwell_Jeff";
+			};
+			name = Release;
+		};
+		4EB28A4521363B3A002A487B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N27GZ96432;
+				INFOPLIST_FILE = W02_Maxwell_JeffUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.okstate.cs.jefmaxw.W02-Maxwell-JeffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = W02_Maxwell_Jeff;
+			};
+			name = Debug;
+		};
+		4EB28A4621363B3A002A487B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N27GZ96432;
+				INFOPLIST_FILE = W02_Maxwell_JeffUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.okstate.cs.jefmaxw.W02-Maxwell-JeffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = W02_Maxwell_Jeff;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EB28A1121363B39002A487B /* Build configuration list for PBXProject "W02_Maxwell_Jeff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB28A3C21363B3A002A487B /* Debug */,
+				4EB28A3D21363B3A002A487B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB28A3E21363B3A002A487B /* Build configuration list for PBXNativeTarget "W02_Maxwell_Jeff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB28A3F21363B3A002A487B /* Debug */,
+				4EB28A4021363B3A002A487B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB28A4121363B3A002A487B /* Build configuration list for PBXNativeTarget "W02_Maxwell_JeffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB28A4221363B3A002A487B /* Debug */,
+				4EB28A4321363B3A002A487B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB28A4421363B3A002A487B /* Build configuration list for PBXNativeTarget "W02_Maxwell_JeffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB28A4521363B3A002A487B /* Debug */,
+				4EB28A4621363B3A002A487B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EB28A0E21363B39002A487B /* Project object */;
+}

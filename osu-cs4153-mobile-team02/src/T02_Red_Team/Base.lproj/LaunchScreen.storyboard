@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zU0-LA-cep" userLabel="BlackBarView">
+                                <rect key="frame" x="0.0" y="696" width="414" height="200"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TeamRedLogo_Version01" translatesAutoresizingMaskIntoConstraints="NO" id="7iO-cE-Io6">
+                                        <rect key="frame" x="-243" y="20" width="900" height="160"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="200" id="Bam-0x-bzt"/>
+                                    <constraint firstItem="7iO-cE-Io6" firstAttribute="top" relation="greaterThanOrEqual" secondItem="zU0-LA-cep" secondAttribute="top" constant="20" id="EFk-va-I5G"/>
+                                    <constraint firstItem="7iO-cE-Io6" firstAttribute="centerY" secondItem="zU0-LA-cep" secondAttribute="centerY" id="Ocn-mr-2A6"/>
+                                    <constraint firstItem="7iO-cE-Io6" firstAttribute="centerX" secondItem="zU0-LA-cep" secondAttribute="centerX" id="gyy-FV-eSR"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" image="HotelWorks" translatesAutoresizingMaskIntoConstraints="NO" id="QZn-xa-0zk">
+                                <rect key="frame" x="-58.5" y="176" width="531" height="359.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="363" id="PvD-NY-m9L"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zU0-LA-cep" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="0A5-D1-gJO"/>
+                            <constraint firstItem="zU0-LA-cep" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="2zP-fH-fht"/>
+                            <constraint firstItem="zU0-LA-cep" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="d1K-3f-jIQ"/>
+                            <constraint firstItem="zU0-LA-cep" firstAttribute="top" secondItem="QZn-xa-0zk" secondAttribute="bottom" multiplier="1.3" id="fog-A0-rA0"/>
+                            <constraint firstItem="QZn-xa-0zk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" multiplier="4" id="nAY-DA-6Ik"/>
+                            <constraint firstItem="zU0-LA-cep" firstAttribute="centerX" secondItem="QZn-xa-0zk" secondAttribute="centerX" id="yix-fH-rsu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="374.33035714285711"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="HotelWorks" width="531.1199951171875" height="746.6400146484375"/>
+        <image name="TeamRedLogo_Version01" width="900" height="900"/>
+    </resources>
+</document>

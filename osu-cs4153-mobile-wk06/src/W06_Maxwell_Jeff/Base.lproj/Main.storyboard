@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="W06_Maxwell_Jeff" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vy-He-iVu">
+                                <rect key="frame" x="20" y="40" width="374" height="56"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wqj-mu-6YO">
+                                <rect key="frame" x="20" y="111" width="374" height="182"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4S1-5E-u7B">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="54"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tdi-0O-Q9c">
+                                                <rect key="frame" x="0.0" y="0.0" width="86" height="54"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="30"/>
+                                                <inset key="contentEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                                <state key="normal" title="1" backgroundImage="button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clickNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wJz-bi-hPN"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymi-WO-dYA">
+                                                <rect key="frame" x="96" y="0.0" width="86" height="54"/>
+                                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="30"/>
+                                                <inset key="contentEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                                <state key="normal" title="2" backgroundImage="button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clickNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q3h-2f-jtb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOb-uA-WVv">
+                                                <rect key="frame" x="192" y="0.0" width="86" height="54"/>
+                                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="30"/>
+                                                <inset key="contentEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                                <state key="normal" title="3" backgroundImage="button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clickNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z9o-K1-QtJ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ur-d6-xO3">
+                                                <rect key="frame" x="288" y="0.0" width="86" height="54"/>
+                                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="30"/>
+                                                <inset key="contentEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                                <state key="normal" title="4" backgroundImage="button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clickNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pnw-Vy-eEB"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wnw-PA-Ylp">
+                                        <rect key="frame" x="0.0" y="64" width="374" height="54"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Gb-E7-Zio">
+                                                <rect key="frame" x="0.0" y="0.0" width="86" height="54"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="30"/>
+                                                <inset key="contentEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                                <state key="normal" title="5" backgroundImage="button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clickNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r16-Gy-HCD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wt3-UQ-DWZ">
+                                                <rect key="frame" x="96" y="0.0" width="86" height="54"/>
+                                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="30"/>
+                                                <inset key="contentEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                                <state key="normal" title="6" backgroundImage="button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clickNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SeM-Ip-Rc7"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ld-XG-lGb">
+                                                <rect key="frame" x="192" y="0.0" width="86" height="54"/>
+                                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="30"/>
+                                                <inset key="contentEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                                <state key="normal" title="7" backgroundImage="button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clickNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TeQ-yt-CIQ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jkR-7Y-UHl">
+                                                <rect key="frame" x="288" y="0.0" width="86" height="54"/>
+                                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="30"/>
+                                                <inset key="contentEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                                <state key="normal" title="8" backgroundImage="button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clickNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gda-1e-rN7"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cBi-rk-5tn">
+                                        <rect key="frame" x="0.0" y="128" width="374" height="54"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDg-0H-S71">
+                                                <rect key="frame" x="0.0" y="0.0" width="86" height="54"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="30"/>
+                                                <inset key="contentEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                                <state key="normal" title="9" backgroundImage="button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clickNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ov1-qH-fJW"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ko7-T6-aDg">
+                                                <rect key="frame" x="96" y="0.0" width="86" height="54"/>
+                                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="30"/>
+                                                <inset key="contentEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                                <state key="normal" title="10" backgroundImage="button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clickNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q9f-RB-M1p"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7V-xf-te9">
+                                                <rect key="frame" x="192" y="0.0" width="86" height="54"/>
+                                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="30"/>
+                                                <inset key="contentEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                                <state key="normal" title="11" backgroundImage="button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clickNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lNB-Y4-fhR"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVq-Cc-hdA">
+                                                <rect key="frame" x="288" y="0.0" width="86" height="54"/>
+                                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="30"/>
+                                                <inset key="contentEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                                <state key="normal" title="12" backgroundImage="button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clickNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YUf-dB-EEZ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2y0-an-EWs">
+                                <rect key="frame" x="20" y="303" width="374" height="54"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRe-uf-SKO">
+                                        <rect key="frame" x="0.0" y="0.0" width="182" height="54"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="30"/>
+                                        <inset key="contentEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                        <state key="normal" title="Undo" backgroundImage="button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="undoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0OT-e3-pYG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gjo-I2-nBK">
+                                        <rect key="frame" x="192" y="0.0" width="182" height="54"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="30"/>
+                                        <inset key="contentEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                        <state key="normal" title="Clear" backgroundImage="button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="clearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o13-O3-rfR"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Domino Counter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zaz-2a-vgt">
+                                <rect key="frame" x="20" y="20" width="374" height="24.666666666666671"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="22"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.40000000000000002" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wqj-mu-6YO" secondAttribute="trailing" constant="20" id="2YN-1R-6Uv"/>
+                            <constraint firstItem="2y0-an-EWs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4dD-Bl-mjy"/>
+                            <constraint firstItem="wqj-mu-6YO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="8pR-lX-6KG"/>
+                            <constraint firstItem="2y0-an-EWs" firstAttribute="top" secondItem="wqj-mu-6YO" secondAttribute="bottom" constant="10" id="AZN-iU-q9b"/>
+                            <constraint firstItem="2vy-He-iVu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BqR-C2-C3z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zaz-2a-vgt" secondAttribute="trailing" constant="20" id="DEX-05-umV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2y0-an-EWs" secondAttribute="trailing" constant="20" id="c5e-xk-Zyc"/>
+                            <constraint firstItem="Zaz-2a-vgt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dWE-hn-dbX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2vy-He-iVu" secondAttribute="trailing" constant="20" id="pLx-13-cAV"/>
+                            <constraint firstItem="2vy-He-iVu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="qGk-ii-ba7"/>
+                            <constraint firstItem="wqj-mu-6YO" firstAttribute="top" secondItem="2vy-He-iVu" secondAttribute="bottom" constant="15" id="v6J-2P-5nU"/>
+                            <constraint firstItem="Zaz-2a-vgt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yUO-pG-gzA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="total" destination="2vy-He-iVu" id="ghL-ij-deX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="button" width="11" height="15"/>
+    </resources>
+</document>

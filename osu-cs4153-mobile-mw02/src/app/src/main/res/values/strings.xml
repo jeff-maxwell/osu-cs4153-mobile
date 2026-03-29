@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">License Plate Game</string>
+    <string name="default_color">#ffffff</string>
+    <string name="selected_color">#b4ecb4</string>
+</resources>
